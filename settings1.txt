@@ -1,69 +1,29 @@
+//latest one after having emmet prblm with css files
+
 {
-  // node/js config is included
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
-  },
 
-  "eslint.alwaysShowStatus": true,
-  "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "consolas",
-  "editor.fontWeight": "normal",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "editor.fontSize": 16,
-  "editor.hover.enabled": false,
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.iconTheme": "vscode-icons",
-  //emmet support in react projects
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emojisense.languages": {
-    "markdown": true,
-    "plaintext": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
+    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "file-icons",
+    "editor.formatOnSave": true,
+
+    //code runner
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    
+    //emmet for react
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
     },
-    "scminput": true,
-    "git-commit": true,
-    "javascript": true,
-    "javascriptreact": true,
-    "html": true,
-    "typescript": true,
-    "typescriptreact": true
-  },
-  "editor.minimap.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "GitHub Dark",
-  "files.autoSave": "afterDelay",
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.editorAssociations": {
-    "*.txt": "default"
-  },
 
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.runInTerminal": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.saveFileBeforeRun": true,
-  "eslint.format.enable": true,
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "terminal.integrated.fontFamily": "monospace"
-
-  //coolest fonts :'Cascadia Code', 'conosolas', monospace
+    //formatting
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+    
+   
 }
